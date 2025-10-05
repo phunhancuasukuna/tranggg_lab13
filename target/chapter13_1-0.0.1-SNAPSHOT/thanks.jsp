@@ -10,9 +10,9 @@
 <body>
     <div class="container">
         <div class="thank-box">
-            <div class="icon">🎉</div>
-            <h1>Thank You for Joining!</h1>
-            <p class="subtitle">We’ve added your email to our list. Here’s what you entered:</p>
+            <div class="icon">🌷</div>
+            <h1>Thanks for Joining!</h1>
+            <p class="subtitle">Here is the information that you entered:</p>
 
             <div class="info">
                 <div><span class="label">Email:</span> <span class="value">${user.email}</span></div>
@@ -20,7 +20,7 @@
                 <div><span class="label">Last Name:</span> <span class="value">${user.lastName}</span></div>
             </div>
 
-            <p class="note">Want to enter another email? Click below:</p>
+            <p class="note">Want to enter another email? Click on the Back button in your browser or click below:</p>
 
             <form action="" method="post" class="return-form">
                 <input type="hidden" name="action" value="join">
